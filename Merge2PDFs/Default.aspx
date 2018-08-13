@@ -32,6 +32,7 @@
             <h2>Web Hosting</h2>
             <p>
                 You can easily find a web hosting company that offers the right mix of features and price for your applications.
+                <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Merge" />
             </p>
             <p>
                 <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>

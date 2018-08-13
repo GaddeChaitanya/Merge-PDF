@@ -21,6 +21,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Merge2PDFs", "Merge2PDFs\",
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "54801"
+		SlnRelativePath = "Merge2PDFs\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject

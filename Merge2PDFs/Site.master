@@ -13,7 +13,7 @@
     </asp:PlaceHolder>
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <link rel="stylesheet"  href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap.min.css"/>
 </head>
 <body>
     <form runat="server">
@@ -37,7 +37,10 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
-
+        
+<Script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></Script>
+<Script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></Script>
+<Script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></Script>
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -53,8 +56,9 @@
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
+                        <li><a runat="server" href="~/Search">Search</a></li>
                     </ul>
-                    <asp:LoginView runat="server" ViewStateMode="Disabled">
+                    <asp:LoginView runat="server" ViewStateMode="Enabled">
                         <AnonymousTemplate>
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a runat="server" href="~/Account/Register">Register</a></li>
